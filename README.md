@@ -3,10 +3,9 @@
 
 ## :white_check_mark: Vue CLI 설치
 
-:pushpin: 우선 Vue cli를 전역으로 설치합니다.
+- 우선 Vue cli를 전역으로 설치합니다.
 
-- 기존 vue/cli가 @vue/cli로 변경되었습니다.<br>
-이전버전이 설치되어 있다면 삭제 후에 설치해 주세요(npm uninstall vue/cli)
+- 기존 vue/cli가 @vue/cli로 변경되었기 때문에, 이전 버전이 설치되어 있다면 삭제 후에 설치해 주세요 `npm uninstall vue/cli`
 
 ```bash
 npm i -g @vue/cli

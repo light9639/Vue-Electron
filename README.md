@@ -1,7 +1,7 @@
 # **:zap: Vue-Electron 기본 템플릿**
 ![다운로드1](https://user-images.githubusercontent.com/95972251/191026345-a470fb05-4201-486b-b35d-1de87ce75425.png)
 
-## :white_check_mark: Vue CLI 설치
+## :tada: Vue CLI 설치
 
 - 우선 Vue cli를 전역으로 설치합니다.
 
@@ -17,7 +17,8 @@ npm i -g @vue/cli
 vue --version
 ```
 
-## :tada: Vue 프로젝트 생성
+## :confetti_ball: Vue 프로젝트 생성
+- 다음 명령어를 입력하여 Vue 프로젝트 생성
 
 ```bash
 vue create vue-electron
@@ -31,11 +32,11 @@ yarn serve
 
 - http://localhost:8080으로 접속하면 화면이 나옵니다.
 
-## ✒️ 프로젝트에 Electron Builder 추가
+## 📋 프로젝트에 Electron Builder 추가
 
 - Electron Builder는 기존 프로젝트를 Electron으로 바꿔주고 쉽게 build를 할 수 있게 돕습니다.<br>
 Vue CLI Plugin으로 제공하는 Electron을 사용하면 쉽게 설치가 가능합니다.<br>
-https://nklayman.github.io/vue-cli-plugin-electron-builder/
+<a href="https://nklayman.github.io/vue-cli-plugin-electron-builder/">Vue 일렉트론 사이트 링크</a>
 
 ```bash
 vue add electron-builder
@@ -49,7 +50,7 @@ vue add electron-builder
 yarn electron:serve
 ```
 
-## 📋 Electron Build
+## 💾 Electron Build
 - 다음 명령으로 App을 Build 할 수 있습니다.
 
 ```bash
